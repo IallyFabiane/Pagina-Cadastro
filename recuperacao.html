@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de senha</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="cone.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Recuperação de senha</h1>
+        <a href="login.html" target="_self" rel="prev"><input type="button" value="Voltar" class="navegacao"></a>
+        <a href="recuperacao.html" target="_self" rel="next"><input type="button" value="Avançar" class="navegacao"></a> 
+    </header>
+    <main>
+        <form action="">
+            <label for="email">E-mail para recuperação:</label>
+            <input type="email" id="email" class="resultado" required placeholder="usuario@dominio.com">
+
+            <label for="tel">Telefone para envio de SMS:</label>
+            <input type="tel" id="tel" class="resultado" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="sms">Código de segurança:</label>
+            <input type="text" id="sms" class="resultado" required>
+
+            <label for="senha">Nova senha:</label>
+            <input type="password" id="senha" required placeholder="********">
+
+            <label for="senha">Confirmação de senha:</label>
+            <input type="password" id="senha" required placeholder="********">
+
+            <label for="envio"></label>
+            <input type="submit" value="Submeter" id="envio" class="recuperacao">
+        </form>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

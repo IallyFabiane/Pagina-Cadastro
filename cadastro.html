@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="clipboard.png" type="image/x-icon">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+            <h1>Cadastre-se Aqui</h1>
+            <nav>
+                <ul>
+                    <a href="login.html" target="_self" rel="next"><li>Login</li></a>
+                    <a href="recuperacao.html" target="_self" rel="next"><li>Recuperação de senha</li></a>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <form action="">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" required class="resultado">
+
+            <label for="data">Data de Nascimento</label>
+            <input type="date" id="data" placeholder="mm/dd/aaaa" class="resultado">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required class="resultado" placeholder="usuario@dominio.com">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" required placeholder="********">
+
+            <label for="senha">Confirmação de senha:</label>
+            <input type="password" id="senha" required placeholder="********">
+
+            <label for="identificador"></label>
+            <input type="submit" value="Submeter" id="envio" class="submit">
+        </form>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
