@@ -16,6 +16,7 @@ function acesso (senha) {
       if (senhaComputada == senhaDeAcesso) {
          return alert('Acesso permitido.');
       } else {
+         acessoNegado = true;
          return prompt ('Acesso negado. Tente novamente aqui: ');
       } 
 } 
